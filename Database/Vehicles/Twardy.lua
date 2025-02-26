@@ -170,7 +170,7 @@ __LN.sightMasterMode = 1;
 __LN.sightIndicationMode = 2;
 
 -- ================================ KBA3 125 mm cannon 9K112 Kobra ATGM ===============================================================
-
+--[[
 --GT.WS[1].LN[3]
 __LN = add_launcher(GT.WS[ws], GT_t.LN_t.t64bv_9m112m2);
 __LN.sightMasterMode = 1;
@@ -182,7 +182,7 @@ __LN.BR = {
 			recoilArgument = 5,
 			recoilTime = 0.5}
 		  }
-
+]]
 -- =============================== KT 7.62 mm Coax machine gun ==========================================================================
 
 --GT.WS[1].LN[4]
