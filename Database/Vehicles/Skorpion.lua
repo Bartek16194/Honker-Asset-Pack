@@ -108,8 +108,8 @@ __LN.sightIndicationMode = 1;
 -- ===================================================================================================================
 
 GT.Name = "Skorpion";
-GT.DisplayName = _('Skorpion');
-GT.DisplayNameShort = _('Skorpion');
+GT.DisplayName = _('Scout Skorpion');
+GT.DisplayNameShort = _('Scout Skorpion');
 GT.Rate = 5;
 
 GT.EPLRS = true

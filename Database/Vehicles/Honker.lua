@@ -62,8 +62,8 @@ GT.driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV"
 -- =======================================================================================================
 
 GT.Name = "Honker";
-GT.DisplayName = _('Honker 4012');
-GT.DisplayNameShort = _('Honker 4012');
+GT.DisplayName = _('LUV Honker 4012');
+GT.DisplayNameShort = _('LUV Honker 4012');
 GT.Rate = 5;
 
 GT.EPLRS = true

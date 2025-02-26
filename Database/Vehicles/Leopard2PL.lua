@@ -144,7 +144,7 @@ GT.WS[ws].laser = true;
 -- ============================== Rh-120 L/55A1 120 mm cannon APFSDS =================================
 
 --GT.WS[1].LN[1]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2A7V_l55);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2PL_l55);
 __LN.beamWidth = math.rad(1);
 __LN.BR[1] = {connector_name = 'POINT_GUN_01',
 			recoilArgument = 2,
@@ -161,9 +161,9 @@ __LN = add_launcher(GT.WS[ws], __LN); -- HE gun
 __LN.type = 6;
 __LN.distanceMin = 20;
 __LN.distanceMax = 8000;
-__LN.PL[1].shell_name = {"Leopard2A7V_DM12_120_HEAT_T"};
+__LN.PL[1].shell_name = {"Leopard2PL_DM12_120_HEAT_T"};
 __LN.PL[1].ammo_capacity = 6;
-__LN.PL[2].shell_name = {"Leopard2A7V_DM12_120_HEAT_T"};
+__LN.PL[2].shell_name = {"Leopard2PL_DM12_120_HEAT_T"};
 __LN.PL[2].ammo_capacity = 11;
 __LN.PL[1].virtualStwID = 1;
 __LN.PL[2].virtualStwID = 2;
@@ -173,7 +173,7 @@ __LN.sightIndicationMode = 2;
 -- =============================== MG3 7.62 mm Coax machine gun ====================================
 
 --GT.WS[1].LN[3]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2A7V_MG3);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2PL_MG3);
 __LN.secondary = true;
 __LN.PL[1].switch_on_delay = 10;
 __LN.PL[1].ammo_capacity = 750
@@ -209,7 +209,7 @@ GT.WS[ws].angles = {
 GT.WS[ws].reference_angle_Y = math.rad(0);	
 GT.WS[ws].reference_angle_Z = math.rad(0);	
 				
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2A7V_M2HB);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.Leopard2PL_M2HB);
 set_recursive_metatable(__LN.sensor, GT_t.WSN_t[7]);
 __LN.type = 10;
 __LN.reactionTime = 0.25

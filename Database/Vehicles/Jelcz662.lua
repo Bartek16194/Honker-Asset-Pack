@@ -65,8 +65,8 @@ GT.driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV"
 -- ================================================================================================================
 
 GT.Name = "jelcz662"
-GT.DisplayName = _("Jelcz 662")
-GT.DisplayNameShort = _('Jelcz 662');
+GT.DisplayName = _("Truck Jelcz 662")
+GT.DisplayNameShort = _('Truck Jelcz 662');
 GT.Rate = 10
 
 GT.DetectionRange  = 0;
