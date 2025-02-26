@@ -200,7 +200,7 @@ GT.WS[ws] = {};
 GT.WS[ws].base = 1
 GT.WS[ws].center = 'CENTER_TOWER_02';
 GT.WS[ws].pointer = "POINT_SIGHT_02";
-GT.WS[ws].cockpit = {'_1G46/_1G46', {0.0, 0.0, 0.0 }}
+GT.WS[ws].cockpit = {'IronSight/IronSight', {0.0, 0.0, 0.0 }}
 GT.WS[ws].angles = {		
 
                     {math.rad(180), math.rad(-180), math.rad(-5), math.rad(75)},
