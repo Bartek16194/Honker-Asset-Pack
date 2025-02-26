@@ -1,0 +1,6 @@
+model = {
+    lods = {
+        {"honker.edm", 50000.000000},
+    };
+    collision_shell = "honker-collision.edm";
+}

@@ -1,0 +1,6 @@
+model = {
+    lods = {
+        {"Leo2PL.edm", 50000.000000},
+    };
+    collision_shell = "Leo2PL-collision.edm";
+}
