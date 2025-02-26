@@ -27,10 +27,12 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/honker")
 mount_vfs_texture_path  (current_mod_path.."/Textures/skorpion")
 mount_vfs_texture_path  (current_mod_path.."/Textures/jelcz662")
 mount_vfs_texture_path  (current_mod_path.."/Textures/leo2pl")
+mount_vfs_texture_path  (current_mod_path.."/Textures/twardy")
 
 -- sensors
 dofile(current_mod_path..'/Database/Weapons/Rosomak_Ammo.lua')
 dofile(current_mod_path..'/Database/Weapons/Leopard2_GunsAndAmmo.lua')
+dofile(current_mod_path..'/Database/Weapons/PT91_GunsAndAmmo.lua')
 
 -- vechicles
 dofile(current_mod_path..'/Database/Vehicles/Rosomak.lua')
@@ -39,5 +41,6 @@ dofile(current_mod_path..'/Database/Vehicles/Honker.lua')
 dofile(current_mod_path..'/Database/Vehicles/Skorpion.lua')
 dofile(current_mod_path..'/Database/Vehicles/Jelcz662.lua')
 dofile(current_mod_path..'/Database/Vehicles/Leopard2PL.lua')
+dofile(current_mod_path..'/Database/Vehicles/Twardy.lua')
 
 plugin_done()

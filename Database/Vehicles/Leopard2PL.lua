@@ -285,7 +285,7 @@ GT.attribute = {wsType_Ground,wsType_Tank,wsType_Gun,WSTYPE_PLACEHOLDER,
                 "Modern Tanks",
 				"Datalink"						
                 };
-GT.Countries = {"Germany"}
+GT.Countries = {"USA","Poland"}
 
 GT.category = "Armor";
 
