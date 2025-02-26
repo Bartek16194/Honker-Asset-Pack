@@ -1,10 +1,8 @@
--- T-64BV by Currenthill
-
 -- =========================== 7.62x54 CARTRIDGES =======================================
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_7_62_T", 
+	name 					= "pt91_7_62_T", 
 	user_name 				= _("7.62 mm"),
 	model_name    			= "tracer_bullet_green",
 	v0    					= 820	,
@@ -29,7 +27,7 @@ declare_weapon({
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_7_62", 
+	name 					= "pt91_7_62", 
 	user_name 				= _("7.62 mm"),
 	model_name    			= "tracer_bullet_green",
 	v0    					= 820	,
@@ -56,7 +54,7 @@ declare_weapon({
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_12_7_API_T", 
+	name 					= "pt91_12_7_API_T", 
 	user_name 				= _("12.7 mm API-T"),
 	model_name    			= "tracer_bullet_green",
 	projectile				= "AP",	
@@ -84,7 +82,7 @@ declare_weapon({
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_12_7_API",  
+	name 					= "pt91_12_7_API",  
 	user_name 				= _("12.7 mm API"),
 	model_name    			= "tracer_bullet_green",
 	projectile				= "AP",	
@@ -114,7 +112,7 @@ declare_weapon({
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_KBA3_125_APFSDS", 
+	name 					= "pt91_KBA3_125_APFSDS", 
 	user_name 				= _("125 mm APFSDS"),
 	model_name    			= "kinetic_type1",
 	v0    					= 2050.0,
@@ -142,7 +140,7 @@ declare_weapon({
 
 declare_weapon({
 	category 				= CAT_SHELLS,
-	name 					= "T64BV_KBA3_125_HE", 
+	name 					= "pt91_KBA3_125_HE", 
 	user_name 				= _("125 mm HE"),
 	model_name    			= "pula",
 	v0    					= 850.0,
@@ -284,72 +282,72 @@ declare_weapon({
 
 -- =========================== KT 7.62 mm machine gun =======================================
 
-GT_t.LN_t.t64bv_kt_7_62 = {name = "KT 7.62", display_name = _("KT 7.62")}
-GT_t.LN_t.t64bv_kt_7_62.type = 9
-GT_t.LN_t.t64bv_kt_7_62.distanceMin = 1
-GT_t.LN_t.t64bv_kt_7_62.distanceMax = 1200
-GT_t.LN_t.t64bv_kt_7_62.max_trg_alt = 1200
-GT_t.LN_t.t64bv_kt_7_62.reactionTime = 0.5
-GT_t.LN_t.t64bv_kt_7_62.sensor = {}
-set_recursive_metatable(GT_t.LN_t.t64bv_kt_7_62.sensor, GT_t.WSN_t[7])
-GT_t.LN_t.t64bv_kt_7_62.PL = {}
-GT_t.LN_t.t64bv_kt_7_62.PL[1] = {}
-GT_t.LN_t.t64bv_kt_7_62.PL[1].ammo_capacity = 250
-GT_t.LN_t.t64bv_kt_7_62.PL[1].shell_name = {"T64BV_7_62_T", "T64BV_7_62"};
-GT_t.LN_t.t64bv_kt_7_62.PL[1].reload_time = 15;
-GT_t.LN_t.t64bv_kt_7_62.PL[1].switch_on_delay = 15;
-GT_t.LN_t.t64bv_kt_7_62.PL[1].shot_delay = 60/650
-GT_t.LN_t.t64bv_kt_7_62.BR = { {pos = {5.2, 0, 0} } }
+GT_t.LN_t.pt91_kt_7_62 = {name = "KT 7.62", display_name = _("KT 7.62")}
+GT_t.LN_t.pt91_kt_7_62.type = 9
+GT_t.LN_t.pt91_kt_7_62.distanceMin = 1
+GT_t.LN_t.pt91_kt_7_62.distanceMax = 1200
+GT_t.LN_t.pt91_kt_7_62.max_trg_alt = 1200
+GT_t.LN_t.pt91_kt_7_62.reactionTime = 0.5
+GT_t.LN_t.pt91_kt_7_62.sensor = {}
+set_recursive_metatable(GT_t.LN_t.pt91_kt_7_62.sensor, GT_t.WSN_t[7])
+GT_t.LN_t.pt91_kt_7_62.PL = {}
+GT_t.LN_t.pt91_kt_7_62.PL[1] = {}
+GT_t.LN_t.pt91_kt_7_62.PL[1].ammo_capacity = 250
+GT_t.LN_t.pt91_kt_7_62.PL[1].shell_name = {"pt91_7_62_T", "pt91_7_62"};
+GT_t.LN_t.pt91_kt_7_62.PL[1].reload_time = 15;
+GT_t.LN_t.pt91_kt_7_62.PL[1].switch_on_delay = 15;
+GT_t.LN_t.pt91_kt_7_62.PL[1].shot_delay = 60/650
+GT_t.LN_t.pt91_kt_7_62.BR = { {pos = {5.2, 0, 0} } }
 for i=2,5 do
-    GT_t.LN_t.t64bv_kt_7_62.PL[i] = {};
-    set_recursive_metatable(GT_t.LN_t.t64bv_kt_7_62.PL[i], GT_t.LN_t.t64bv_kt_7_62.PL[1]);
+    GT_t.LN_t.pt91_kt_7_62.PL[i] = {};
+    set_recursive_metatable(GT_t.LN_t.pt91_kt_7_62.PL[i], GT_t.LN_t.pt91_kt_7_62.PL[1]);
 end;
 
 -- ======================== KT 12.7 mm machine gun ============================================
 
-GT_t.LN_t.t64bv_kt_12_7 = {name = "KT 12.7", display_name = _("KT 12.7")}
-GT_t.LN_t.t64bv_kt_12_7.type = 10
-GT_t.LN_t.t64bv_kt_12_7.distanceMin = 1
-GT_t.LN_t.t64bv_kt_12_7.distanceMax = 1800
-GT_t.LN_t.t64bv_kt_12_7.max_trg_alt = 1800
-GT_t.LN_t.t64bv_kt_12_7.reactionTime = 0.5
-GT_t.LN_t.t64bv_kt_12_7.sensor = {}
-set_recursive_metatable(GT_t.LN_t.t64bv_kt_12_7.sensor, GT_t.WSN_t[5])
-GT_t.LN_t.t64bv_kt_12_7.PL = {}
-GT_t.LN_t.t64bv_kt_12_7.PL[1] = {}
-GT_t.LN_t.t64bv_kt_12_7.PL[1].ammo_capacity = 50
-GT_t.LN_t.t64bv_kt_12_7.PL[1].shell_name = {"T64BV_12_7_API_T", "T64BV_12_7_API"};
-GT_t.LN_t.t64bv_kt_12_7.PL[1].shot_delay = 60/800
-GT_t.LN_t.t64bv_kt_12_7.PL[1].reload_time = 5;
-GT_t.LN_t.t64bv_kt_12_7.PL[1].reload_time = 5;
-GT_t.LN_t.t64bv_kt_12_7.PL[1].switch_on_delay = 5;
-GT_t.LN_t.t64bv_kt_12_7.BR = { {pos = {5.2, 0, 0} } }
+GT_t.LN_t.pt91_kt_12_7 = {name = "KT 12.7", display_name = _("KT 12.7")}
+GT_t.LN_t.pt91_kt_12_7.type = 10
+GT_t.LN_t.pt91_kt_12_7.distanceMin = 1
+GT_t.LN_t.pt91_kt_12_7.distanceMax = 1800
+GT_t.LN_t.pt91_kt_12_7.max_trg_alt = 1800
+GT_t.LN_t.pt91_kt_12_7.reactionTime = 0.5
+GT_t.LN_t.pt91_kt_12_7.sensor = {}
+set_recursive_metatable(GT_t.LN_t.pt91_kt_12_7.sensor, GT_t.WSN_t[5])
+GT_t.LN_t.pt91_kt_12_7.PL = {}
+GT_t.LN_t.pt91_kt_12_7.PL[1] = {}
+GT_t.LN_t.pt91_kt_12_7.PL[1].ammo_capacity = 50
+GT_t.LN_t.pt91_kt_12_7.PL[1].shell_name = {"pt91_12_7_API_T", "pt91_12_7_API"};
+GT_t.LN_t.pt91_kt_12_7.PL[1].shot_delay = 60/800
+GT_t.LN_t.pt91_kt_12_7.PL[1].reload_time = 5;
+GT_t.LN_t.pt91_kt_12_7.PL[1].reload_time = 5;
+GT_t.LN_t.pt91_kt_12_7.PL[1].switch_on_delay = 5;
+GT_t.LN_t.pt91_kt_12_7.BR = { {pos = {5.2, 0, 0} } }
 for i=2,10 do
-    GT_t.LN_t.t64bv_kt_12_7.PL[i] = {};
-    set_recursive_metatable(GT_t.LN_t.t64bv_kt_12_7.PL[i], GT_t.LN_t.t64bv_kt_12_7.PL[1]);
+    GT_t.LN_t.pt91_kt_12_7.PL[i] = {};
+    set_recursive_metatable(GT_t.LN_t.pt91_kt_12_7.PL[i], GT_t.LN_t.pt91_kt_12_7.PL[1]);
 end;
 
 -- =============================== KBA3 125 mm cannon ============================================
 
-GT_t.LN_t.t64bv_kba3 = {name = "KBA-3", display_name = _("KBA-3")}
-GT_t.LN_t.t64bv_kba3.type = 2
-GT_t.LN_t.t64bv_kba3.distanceMin = 10
-GT_t.LN_t.t64bv_kba3.distanceMax = 3500
-GT_t.LN_t.t64bv_kba3.max_trg_alt = 1500
-GT_t.LN_t.t64bv_kba3.reactionTime = 1.5
-GT_t.LN_t.t64bv_kba3.maxShootingSpeed = 9
-GT_t.LN_t.t64bv_kba3.sensor = {}
-set_recursive_metatable(GT_t.LN_t.t64bv_kba3.sensor, GT_t.WSN_t[7])
-GT_t.LN_t.t64bv_kba3.PL = {}
-GT_t.LN_t.t64bv_kba3.PL[1] = {}
-GT_t.LN_t.t64bv_kba3.PL[1].shot_delay = 8
-GT_t.LN_t.t64bv_kba3.PL[1].ammo_capacity = 12
-GT_t.LN_t.t64bv_kba3.PL[1].reload_time = 14*20; -- 20 sec per round for automatic loader
-GT_t.LN_t.t64bv_kba3.PL[1].shell_name = {"T64BV_KBA3_125_APFSDS"};
-GT_t.LN_t.t64bv_kba3.PL[2] = {}
-GT_t.LN_t.t64bv_kba3.PL[2].shot_delay = 30
-GT_t.LN_t.t64bv_kba3.PL[2].automaticLoader = false;
-GT_t.LN_t.t64bv_kba3.PL[2].ammo_capacity = 8
-GT_t.LN_t.t64bv_kba3.PL[2].reload_time = 10*15; -- 15 sec per round for stowage
-GT_t.LN_t.t64bv_kba3.PL[2].shell_name = {"T64BV_KBA3_125_APFSDS"};
-GT_t.LN_t.t64bv_kba3.BR = { {pos = {5.4, 0,0} } }
+GT_t.LN_t.pt91_kba3 = {name = "KBA-3", display_name = _("KBA-3")}
+GT_t.LN_t.pt91_kba3.type = 2
+GT_t.LN_t.pt91_kba3.distanceMin = 10
+GT_t.LN_t.pt91_kba3.distanceMax = 3500
+GT_t.LN_t.pt91_kba3.max_trg_alt = 1500
+GT_t.LN_t.pt91_kba3.reactionTime = 1.5
+GT_t.LN_t.pt91_kba3.maxShootingSpeed = 9
+GT_t.LN_t.pt91_kba3.sensor = {}
+set_recursive_metatable(GT_t.LN_t.pt91_kba3.sensor, GT_t.WSN_t[7])
+GT_t.LN_t.pt91_kba3.PL = {}
+GT_t.LN_t.pt91_kba3.PL[1] = {}
+GT_t.LN_t.pt91_kba3.PL[1].shot_delay = 8
+GT_t.LN_t.pt91_kba3.PL[1].ammo_capacity = 12
+GT_t.LN_t.pt91_kba3.PL[1].reload_time = 14*20; -- 20 sec per round for automatic loader
+GT_t.LN_t.pt91_kba3.PL[1].shell_name = {"pt91_KBA3_125_APFSDS"};
+GT_t.LN_t.pt91_kba3.PL[2] = {}
+GT_t.LN_t.pt91_kba3.PL[2].shot_delay = 30
+GT_t.LN_t.pt91_kba3.PL[2].automaticLoader = false;
+GT_t.LN_t.pt91_kba3.PL[2].ammo_capacity = 8
+GT_t.LN_t.pt91_kba3.PL[2].reload_time = 10*15; -- 15 sec per round for stowage
+GT_t.LN_t.pt91_kba3.PL[2].shell_name = {"pt91_KBA3_125_APFSDS"};
+GT_t.LN_t.pt91_kba3.BR = { {pos = {5.4, 0,0} } }

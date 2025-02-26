@@ -139,7 +139,7 @@ GT.WS[ws].laser = true;
 -- ============================== KBA3 125 mm cannon APFSDS ================================================================================
 
 --GT.WS[1].LN[1]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.t64bv_kba3);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.pt91_kba3);
 __LN.beamWidth = math.rad(1);
 __LN.BR[1] = {connector_name = 'POINT_GUN_01',
 			recoilArgument = 5,
@@ -156,11 +156,11 @@ __LN = add_launcher(GT.WS[ws], __LN); -- HE gun
 __LN.type = 6;
 __LN.distanceMin = 20;
 __LN.distanceMax = 5000;
-__LN.PL[1].shell_name = {"T64BV_KBA3_125_HE"};
+__LN.PL[1].shell_name = {"pt91_KBA3_125_HE"};
 __LN.PL[1].ammo_capacity = 10;
 __LN.PL[1].reload_time = 20 * 10
 __LN.PL[1].shot_delay = 6
-__LN.PL[2].shell_name = {"T64BV_KBA3_125_HE"};
+__LN.PL[2].shell_name = {"pt91_KBA3_125_HE"};
 __LN.PL[2].ammo_capacity = 4;
 __LN.PL[2].reload_time = 15 * 10
 __LN.PL[2].shot_delay = 30;
@@ -172,7 +172,7 @@ __LN.sightIndicationMode = 2;
 -- ================================ KBA3 125 mm cannon 9K112 Kobra ATGM ===============================================================
 --[[
 --GT.WS[1].LN[3]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.t64bv_9m112m2);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.pt91_9m112m2);
 __LN.sightMasterMode = 1;
 __LN.sightIndicationMode = 4;
 __LN.PL[1].virtualStwID = 1;
@@ -186,7 +186,7 @@ __LN.BR = {
 -- =============================== KT 7.62 mm Coax machine gun ==========================================================================
 
 --GT.WS[1].LN[4]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.t64bv_kt_7_62);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.pt91_kt_7_62);
 __LN.secondary = true;
 __LN.BR[1] = { connector_name = 'POINT_GUN_03', 
 							recoilArgument = 50,
@@ -219,7 +219,7 @@ GT.WS[ws].reference_angle_Z = math.rad(10);
 -- ================================ KT 12.7 mm machine gun =============================================================================
 
 --GT.WS[2].LN[1]
-__LN = add_launcher(GT.WS[ws], GT_t.LN_t.t64bv_kt_12_7);
+__LN = add_launcher(GT.WS[ws], GT_t.LN_t.pt91_kt_12_7);
 __LN.BR[1] = { connector_name = 'POINT_GUN_02', 
 							recoilArgument = 32,
 							recoilTime = 60/800/2 }
