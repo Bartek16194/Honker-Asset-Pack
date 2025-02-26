@@ -265,7 +265,7 @@ local visual_tracker_ws1 = {{{"self", ws-1}}, {{"self", ws}}};
 
 GT.Name = "Leopard 2PL";
 GT.DisplayName = _("MBT Leopard 2PL");
-GT.DisplayNameShort = _("MBT Leopard 2PL");
+GT.DisplayNameShort = _("Leo 2PL");
 GT.Rate = 20;
 
 GT.Sensors = {
