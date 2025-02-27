@@ -1,5 +1,3 @@
--- HX77 Truck by Currenthill
-
 GT_t.CH_t.star266 = {
 	life = 3,
 	mass = 32000,

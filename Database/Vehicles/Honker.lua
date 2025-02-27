@@ -1,5 +1,3 @@
--- Land Rover Wolf by Currenthill
-
 -- Chassis
 GT_t.CH_t.HONKER4012 = {
 	life = 3,

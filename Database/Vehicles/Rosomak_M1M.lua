@@ -1,5 +1,3 @@
--- Rosomak CRV IFV by Currenthill
-
 -- Chassis
 GT_t.CH_t.Rosomak_M1M = {
     life = 10,                  -- Wytrzymałość pojazdu (ilość "żyć")

@@ -1,5 +1,3 @@
--- Land Rover WMIK by Currenthill
-
 -- Chassis
 GT_t.CH_t.Skorpion_O = {
 	life = 3,

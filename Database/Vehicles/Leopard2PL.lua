@@ -1,5 +1,3 @@
--- Leopard 2A7V by Currenthill
-
 GT_t.CH_t.LEO2PL = {
 	life = 36,
 	mass = 66500,

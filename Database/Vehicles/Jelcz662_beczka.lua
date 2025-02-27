@@ -1,4 +1,4 @@
-GT_t.CH_t.jelcz662 = {
+GT_t.CH_t.jelcz662_beczka = {
 	life = 3,
 	mass = 32000,
 	length = 9.1,
@@ -30,10 +30,10 @@ GT_t.CH_t.jelcz662 = {
 GT = {};
 GT_t.ws = 0;
 set_recursive_metatable(GT, GT_t.generic_wheel_vehicle);
-set_recursive_metatable(GT.chassis, GT_t.CH_t.jelcz662);
+set_recursive_metatable(GT.chassis, GT_t.CH_t.jelcz662_beczka);
 
-GT.visual.shape = "jelcz662"
-GT.visual.shape_dstr = "jelcz662-dest"
+GT.visual.shape = "jelcz662_beczka"
+GT.visual.shape_dstr = "jelcz662_beczka-dest"
 
 GT.IR_emission_coeff = 0.12
 GT.visual.IR = { coeffs = {GT_t.IR_COEFFS_ENGINE_APC, GT_t.IR_COEFFS_WHEELS_Truck, {0, 0}, GT_t.IR_COEFFS_BODY, {0.29, 0.29/1200}}}
@@ -62,9 +62,9 @@ GT.driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV"
 
 -- ================================================================================================================
 
-GT.Name = "jelcz662"
-GT.DisplayName = _("Truck Jelcz 662")
-GT.DisplayNameShort = _('Truck Jelcz 662');
+GT.Name = "jelcz662_beczka"
+GT.DisplayName = _("Refueler Jelcz 662")
+GT.DisplayNameShort = _('Refueler Jelcz 662');
 GT.Rate = 10
 
 GT.DetectionRange  = 0;

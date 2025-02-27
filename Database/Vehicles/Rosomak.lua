@@ -1,6 +1,3 @@
--- Rosomak CRV IFV by Currenthill
-
--- Chassis
 GT_t.CH_t.Rosomak = {
     life = 10,                  -- Wytrzymałość pojazdu (ilość "żyć")
     mass = 22000,               -- Masa pojazdu: Rosomak waży około 22 ton (bez dodatkowego opancerzenia)

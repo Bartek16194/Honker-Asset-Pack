@@ -1,5 +1,3 @@
--- T-64BV by Currenthill
-
 GT_t.CH_t.PT91 = {
 	life = 22,
 	mass = 42000,
