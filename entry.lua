@@ -1,16 +1,16 @@
-declare_plugin("Polish Asset Pack",
+declare_plugin("Honker Asset Pack",
 
 {
-displayName   	= _("Polish Asset Pack"),
-shortName	  	=   "Polish Asset Pack",
+displayName   	= _("Honker Asset Pack"),
+shortName	  	=   "Honker Asset Pack",
 installed 	 	= true, 
 dirName	  	 	= current_mod_path,
 	
-fileMenuName 	= _("Polish Asset Pack"),
-version		 	= "Alpha",		 
+fileMenuName 	= _("Honker Asset Pack"),
+version		 	= "Pre-Release 04/03/25",		 
 state		 	= "installed",
 developerName	= "Bartek16194",
-info		 	= _("Polish Asset Pack by Bartek16194."),
+info		 	= _("Honker Asset Pack by Bartek16194."),
 
 })
 ----------------------------------------------------------------------------------------
