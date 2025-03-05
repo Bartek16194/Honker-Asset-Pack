@@ -2,4 +2,4 @@ livery = {
 	{"honker_2s",	DIFFUSE	,	"body2#saper", false};
 }
 
-NAME = "Saper"
+NAME = "patrol Sarepski"

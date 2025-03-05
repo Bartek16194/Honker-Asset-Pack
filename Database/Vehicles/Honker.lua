@@ -54,12 +54,22 @@ GT.visual.dirt_pos = {-0.75, 0.06, 0}
 
 GT.visual.IR = { coeffs = {GT_t.IR_COEFFS_ENGINE_APC, GT_t.IR_COEFFS_WHEELS_Car, {0, 0}, GT_t.IR_COEFFS_BODY, {0.18, 0.18/800}}}
 
+GT.AddPropVehicle = {
+			{ id = "Variant" , control = 'comboList', wCtrl = 150, label = _('Paka'), defValue = 0, arg = 200,
+				values = {
+				{ id = 1, dispName = _("Standard"), value = 0.0},
+				{ id = 2, dispName = _("Radio"), value = 0.2},
+				{ id = 3, dispName = _("Saper"), value = 0.3},
+				}
+			}
+		}
+
 GT.driverViewConnectorName = {"POINT_DRIVER_01", offset = {0.0, 0.0, 0.0}}
 GT.driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV"
 
 -- =======================================================================================================
 
-GT.Name = "Honker";
+GT.Name = "honker";
 GT.DisplayName = _('LUV Honker 4012');
 GT.DisplayNameShort = _('LUV Honker 4012');
 GT.Rate = 5;
@@ -67,8 +77,8 @@ GT.Rate = 5;
 GT.EPLRS = true
 
 GT.InternalCargo = {
-    nominalCapacity = 600,
-    maximalCapacity = 600,
+    nominalCapacity = 200,
+    maximalCapacity = 200,
 }
 
 GT.DetectionRange  = 0;
