@@ -32,6 +32,7 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/star266")
 mount_vfs_texture_path  (current_mod_path.."/Textures/jelcz442")
 mount_vfs_texture_path  (current_mod_path.."/Textures/jelcz662_beczka")
 mount_vfs_texture_path  (current_mod_path.."/Textures/star944")
+mount_vfs_texture_path  (current_mod_path.."/Textures/rosomak_wem_m")
 
 -- sensors
 dofile(current_mod_path..'/Database/Weapons/Rosomak_Ammo.lua')
@@ -50,5 +51,6 @@ dofile(current_mod_path..'/Database/Vehicles/Twardy.lua')
 dofile(current_mod_path..'/Database/Vehicles/Star266.lua')
 dofile(current_mod_path..'/Database/Vehicles/Jelcz442.lua')
 dofile(current_mod_path..'/Database/Vehicles/Star944.lua')
+dofile(current_mod_path..'/Database/Vehicles/Rosomak_WEM_M.lua')
 
 plugin_done()
