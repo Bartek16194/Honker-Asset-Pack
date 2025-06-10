@@ -45,9 +45,9 @@ GT.IR_emission_coeff = 0.15
 GT.visual.IR = { coeffs = {GT_t.IR_COEFFS_ENGINE_Tank, GT_t.IR_COEFFS_ROLLERS_Tank, GT_t.IR_COEFFS_152mm, GT_t.IR_COEFFS_BODY, {0.3, 0.3/1650}}}
 
 GT.AddPropVehicle = {
-			{ id = "RPG-net" , control = 'checkbox', 				label = _('RPG-net'), 				defValue = false, arg=200, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
-			{ id = "Concertina wire box" , control = 'checkbox', 	label = _('Concertina wire box'),	defValue = false, arg=201, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
-			{ id = "Rear toolbox" , control = 'checkbox', 			label = _('Rear toolbox'), 			defValue = false, arg=202, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
+			{ id = "RPG-net" , control = 'checkbox', 				label = _('RPG-net'), 				defValue = true, arg=200, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
+			{ id = "Concertina wire box" , control = 'checkbox', 	label = _('Concertina wire box'),	defValue = true, arg=201, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
+			{ id = "Rear toolbox" , control = 'checkbox', 			label = _('Rear toolbox'), 			defValue = true, arg=202, boolean_inverted = false}, -- boolean_inverted = true by default: element present - argVal=0, absent - argVal=1
 		}
 
 -- Turbine
