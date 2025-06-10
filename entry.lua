@@ -41,6 +41,9 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/jelcz442")
 mount_vfs_texture_path  (current_mod_path.."/Textures/jelcz662_beczka")
 mount_vfs_texture_path  (current_mod_path.."/Textures/star944")
 mount_vfs_texture_path  (current_mod_path.."/Textures/rosomak_wem_m")
+mount_vfs_texture_path  (current_mod_path.."/Textures/tumak2")
+mount_vfs_texture_path  (current_mod_path.."/Textures/tumak2_wkm")
+mount_vfs_texture_path  (current_mod_path.."/Textures/tumak2_ukm")
 
 -- sensors
 dofile(current_mod_path..'/Database/Weapons/Rosomak_Ammo.lua')
@@ -60,5 +63,8 @@ dofile(current_mod_path..'/Database/Vehicles/Star266.lua')
 dofile(current_mod_path..'/Database/Vehicles/Jelcz442.lua')
 dofile(current_mod_path..'/Database/Vehicles/Star944.lua')
 dofile(current_mod_path..'/Database/Vehicles/Rosomak_WEM_M.lua')
+dofile(current_mod_path..'/Database/Vehicles/Tumak2.lua')
+dofile(current_mod_path..'/Database/Vehicles/Tumak2_WKM.lua')
+dofile(current_mod_path..'/Database/Vehicles/Tumak2_UKM.lua')
 
 plugin_done()
