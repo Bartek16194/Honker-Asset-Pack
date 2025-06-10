@@ -1,5 +1,6 @@
 livery = {
-	{"door_1.0",	DIFFUSE	,	"desert", false};
+	{"kadlub",	DIFFUSE	,	"desert", false};
+	{"siatki",	DIFFUSE	,	"desert", false};
 }
 
 NAME = "Desert"
