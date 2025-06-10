@@ -12,6 +12,14 @@ state		 	= "installed",
 developerName	= "Bartek16194",
 info		 	= _("Honker Asset Pack by Bartek16194."),
 
+Skins	=
+	{
+		{
+			name	= "Honker Asset Pack",
+			dir		= "Theme"
+		},
+	},
+
 })
 ----------------------------------------------------------------------------------------
 
