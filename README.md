@@ -19,8 +19,8 @@ Vechicles included:
 - Scout Tumak 2 WKM
 
 ### Setup
-- Download zips
-- Unzip the .zip file/files
+- Download [release](https://github.com/Bartek16194/Honker-Asset-Pack/releases)
+- Unzip the .zip file
 - Make sure DCS is shut down
-- Copy the the Folders "**Mods**" and "**Scripts**" to the to DCS folder in **Saved Games**  
+- Copy the the Folder "**Mods**" to the to DCS folder in **Saved Games**  
   e.g. %userprofile%\Saved Games\DCS.openbeta\ or %userprofile%\Saved Games\DCS\
