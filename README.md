@@ -24,3 +24,6 @@ Vechicles included:
 - Make sure DCS is shut down
 - Copy the the Folder "**Mods**" to the to DCS folder in **Saved Games**  
   e.g. %userprofile%\Saved Games\DCS.openbeta\ or %userprofile%\Saved Games\DCS\
+
+### If you have any issues
+report them as an [issue](https://github.com/Bartek16194/Honker-Asset-Pack/issues) — and remember, this mod isn't meant to be serious. I made it just because I was bored.
