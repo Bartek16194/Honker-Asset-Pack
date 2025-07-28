@@ -2,6 +2,8 @@
 I'm not the author of the 3D models, textures, or sounds.
 Most of them are conversions from Arma 2 or Arma 3 made by various authors.
 
+DCS World: Honker Asset Pack by Bartek16194
+
 Vechicles included:
 - LUV Honker 4012
 - LUV Tumak 2
