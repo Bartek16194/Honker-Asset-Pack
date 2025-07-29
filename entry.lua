@@ -7,7 +7,7 @@ installed 	 	= true,
 dirName	  	 	= current_mod_path,
 	
 fileMenuName 	= _("Honker Asset Pack"),
-version		 	= "Pre-Release 04/03/25",		 
+version		 	= "1.0 Release",		 
 state		 	= "installed",
 developerName	= "Bartek16194",
 info		 	= _("Honker Asset Pack by Bartek16194."),
