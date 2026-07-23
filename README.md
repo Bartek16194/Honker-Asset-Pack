@@ -39,4 +39,6 @@ Most of them are conversions from Arma 2 or Arma 3 made by various authors.
 
 ### Got issues?
 
+Discord Link https://discord.gg/WbChuSCGHQ
+
 Report them as an [issue](https://github.com/Bartek16194/Honker-Asset-Pack/issues) — and remember: this mod isn't meant to be taken too seriously. I made it just because I was bored.
